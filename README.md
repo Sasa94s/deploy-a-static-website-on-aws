@@ -34,7 +34,7 @@ There are three ways to access the bucket:
 |Source|URL|Screenshot
 |---|---|---
 |CloudFront|https://d39g58ktisuizc.cloudfront.net|[Click to view](docs/images/web-home-cloudfront.png)
-|Website Endpoint|http://melsheikh-travel-blog.s3-website.us-east-2.amazonaws.com/|[Click to view](docs/images/web-home-endpoint.png)
+|Website Endpoint|http://melsheikh-travel-blog.s3-website.us-east-1.amazonaws.com/|[Click to view](docs/images/web-home-endpoint.png)
 |S3 Object URL|https://melsheikh-travel-blog.s3.amazonaws.com/index.html|[Click to view](docs/images/web-home-s3.png)
 
 ## Getting Started
@@ -83,4 +83,6 @@ There are three ways to access the bucket:
 6. Click on "Create" to proceed
 ![CloudFront - Create new OAI](docs/images/cloudfront-createnewoai.png)
 7. Select "Yes, update Bucket policy"
-8. Leave others as defaults
+8. Include "Default root object" as "index.html"
+9. Leave others as defaults
+![CloudFront - Distribution](docs/images/cloudfront-distribution.png)
